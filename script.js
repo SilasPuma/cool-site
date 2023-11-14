@@ -19,4 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+
+    // Add the 'scrolled' class on scroll
+    document.addEventListener('scroll', function() {
+        const body = document.body;
+        const scrollY = window.scrollY || window.pageYOffset;
+
+        if (scrollY > 50) {
+            body.classList.add('scrolled');
+        } else {
+            body.classList.remove('scrolled');
+        }
+    });
 });
