@@ -17,4 +17,4 @@ Visit the website [here](https://silaspuma.github.io/cool-site).
 SilasPuma
 
 ## License
-This project is licensed under the MIT License - see the [license.txt](license.txt) file for details.
+This project is licensed under the MIT License - see the [license](license.txt) file for details.
